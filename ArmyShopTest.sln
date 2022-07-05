@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32505.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArmyShopTest", "ArmyShopTest\ArmyShopTest.csproj", "{F6DD2A7E-8866-4706-B5FC-A1C5BA7FD632}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArmyShopPages", "ArmyShopPages\ArmyShopPages.csproj", "{A946CFAE-9B08-4CF7-BA3D-6687364EA3DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6DD2A7E-8866-4706-B5FC-A1C5BA7FD632}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6DD2A7E-8866-4706-B5FC-A1C5BA7FD632}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6DD2A7E-8866-4706-B5FC-A1C5BA7FD632}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6DD2A7E-8866-4706-B5FC-A1C5BA7FD632}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A946CFAE-9B08-4CF7-BA3D-6687364EA3DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A946CFAE-9B08-4CF7-BA3D-6687364EA3DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A946CFAE-9B08-4CF7-BA3D-6687364EA3DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A946CFAE-9B08-4CF7-BA3D-6687364EA3DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6CF80FAF-C1AC-44F3-AB0F-613BE1579187}
+	EndGlobalSection
+EndGlobal
