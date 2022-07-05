@@ -17,6 +17,9 @@
 - Check if title contains "CARINTHIA - sukurta Jûsø saugumui ir komfortui"
 
 ### 2. Search field in Home Page
+-
+-
+-
 
 ### 3.- Close add
 - Click Login
