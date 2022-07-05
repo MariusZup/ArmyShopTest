@@ -23,7 +23,7 @@ namespace ArmyShopTest.Tests
 
         public static void search()
         {
-            string expectedSearch = "kuprine";
+            string expectedSearch = "Kuprinė";
             string acctualSearchResult;
 
             SearchButtonPage.TypeInSearchField(expectedSearch);
