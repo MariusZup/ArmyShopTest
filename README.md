@@ -17,9 +17,10 @@
 - Check if title contains "CARINTHIA - sukurta Jûsø saugumui ir komfortui"
 
 ### 2. Search field in Home Page
--
--
--
+- Click "Search field"
+- Type search word "Kuprine"
+- Click Search
+- Check if search contains word "Kuprine"
 
 ### 3.- Close add
 - Click Login
