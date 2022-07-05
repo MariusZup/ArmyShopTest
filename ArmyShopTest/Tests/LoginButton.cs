@@ -38,11 +38,5 @@ namespace ArmyShopTest.Tests
             Assert.IsTrue(actualName.Contains(expectedMessage));
 
         }
-
-        [TearDown]
-        public static void close()
-        {
-            Driver.closeDriver();
-        }
     }
 }

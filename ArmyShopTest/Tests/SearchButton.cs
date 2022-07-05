@@ -32,11 +32,5 @@ namespace ArmyShopTest.Tests
 
             Assert.IsTrue(acctualSearchResult.Contains(expectedSearch));
         }
-
-        [TearDown]
-        public static void close()
-        {
-            Driver.closeDriver();
-        }
     }
 }

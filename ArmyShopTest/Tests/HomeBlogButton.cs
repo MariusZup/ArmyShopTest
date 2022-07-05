@@ -31,11 +31,5 @@ namespace ArmyShopTest
 
             Assert.AreEqual(expectedMessage, acctualMessage);
         }
-
-        [TearDown]
-        public static void close()
-        {
-            Driver.closeDriver();
-        }
     }
 }
