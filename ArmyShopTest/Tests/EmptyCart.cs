@@ -26,8 +26,8 @@ namespace ArmyShopTest.Tests
             string acctualMessage;
 
             EmptyCartPage.clickAirsoftButton();
-            EmptyCartPage.clickButton();
-            EmptyCartPage.clickButton2();
+            EmptyCartPage.clickPistolButton();
+            EmptyCartPage.clickCo2Button();
             EmptyCartPage.addToCart();
             EmptyCartPage.clickCart();
             EmptyCartPage.clickRemoveItem();

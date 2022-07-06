@@ -26,13 +26,13 @@ namespace ArmyShopPages.Pages
             Common.clickElement(locator);
         }
 
-        public static void clickButton()
+        public static void clickPistolButton()
         {
             string locator = "//*[@id='vmMainPage']/div[2]/div/div/div/div/div/div/div[1]/div/div[2]/a";
             Common.clickElement(locator);
         }
 
-        public static void clickButton2()
+        public static void clickCo2Button()
         {
             string locator = "//*[@id='vmMainPage']/div[2]/div/div/div/div/div/div/div[2]/div/div[2]/a";
             Common.clickElement(locator);
