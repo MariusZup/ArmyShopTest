@@ -50,7 +50,9 @@ namespace ArmyShopPages.Pages
         public static void clickRemoveItem()
         {
             string locator = "//*[@id='delete_button_0']";
+            Common.waitForElementToBeVisible(locator);
             Common.clickElement(locator);
+
         }
 
         public static string readRemovedText()
