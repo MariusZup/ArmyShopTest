@@ -14,7 +14,7 @@
 - Open https://www.army-shop.lt/
 - Close add
 - Click on BLOG'as
-- Check if title contains "CARINTHIA - sukurta Jûsø saugumui ir komfortui"
+- Check if title contains "CARINTHIA - sukurta Jusu saugumui ir komfortui"
 
 ### 2. Search field in Home Page
 - Click "Search field"
@@ -22,9 +22,15 @@
 - Click Search
 - Check if search contains word "Kuprine"
 
-### 3.- Close add
+### 3. Forgt password
 - Click Login
 - Click Forgot "password"
 - Type email
 - Click Submit
-- Check if title contains "Jûsø slaptaþodþio pakeisti nepavyko, nes Vartotojas su tokiu el.paðto adresu ir prisijungimo vardu nerastas."
+- Check if title contains "Jusu slaptazodzio pakeisti nepavyko, nes Vartotojas su tokiu el.pasto adresu ir prisijungimo vardu nerastas."
+
+### 4. Add to Cart
+- Click "Airsoft" button
+- Click "CO2"
+- Click Add To Cart
+- Check if system message responded with "Jusu preke sekmingai ideta i krepseli"
