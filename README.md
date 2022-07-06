@@ -34,3 +34,8 @@
 - Click "CO2"
 - Click Add To Cart
 - Check if system message responded with "Jusu preke sekmingai ideta i krepseli"
+
+### 5. Blog'as News
+- Click Blog'as button
+- Click 'Remove before flight'
+- Check if title contains 'REmove before flight - rauduonos juosteles svarba'
