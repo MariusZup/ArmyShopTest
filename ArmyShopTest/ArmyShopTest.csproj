@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="BaseClasses\BaseTest.cs" />
     <Compile Include="Tests\AddToCartButton.cs" />
+    <Compile Include="Tests\EmptyCart.cs" />
     <Compile Include="Tests\HomeBlogButton.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tests\LoginButton.cs" />
