@@ -56,6 +56,7 @@
     <Compile Include="Common.cs" />
     <Compile Include="Constants.cs" />
     <Compile Include="Driver.cs" />
+    <Compile Include="Pages\AddToCartButtonPage.cs" />
     <Compile Include="Pages\HomeBlogButtonPage.cs" />
     <Compile Include="Pages\LoginButtonPage.cs" />
     <Compile Include="Pages\SearchButtonPage.cs" />

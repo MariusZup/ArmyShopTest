@@ -15,6 +15,7 @@ namespace ArmyShopPages
                 public static string Domain = "https://www.army-shop.lt/";
                 public static string LoginButtonPage = $"{Domain}/index.php?option=com_virtuemart&view=page&page=checkout.login_form&Itemid=30&lang=lt";
                 public static string SearchButtonPage = $"{Domain}lt/shop/browse/search/";
+                public static string AddToCartButtonPage = $"{Domain}/lt/air-soft/ginklai/pistoletai/co2.html";
 
             }
         }
