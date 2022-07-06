@@ -1,4 +1,5 @@
-﻿using ArmyShopPages.Pages;
+﻿using ArmyShopPages;
+using ArmyShopPages.Pages;
 using ArmyShopTest.BaseClasses;
 using NUnit.Framework;
 using System;
@@ -28,6 +29,7 @@ namespace ArmyShopTest.Tests
             EmptyCartPage.clickAirsoftButton();
             EmptyCartPage.clickPistolButton();
             EmptyCartPage.clickCo2Button();
+            EmptyCartPage.clickFullMetal();
             EmptyCartPage.addToCart();
             EmptyCartPage.clickCart();
             EmptyCartPage.clickRemoveItem();

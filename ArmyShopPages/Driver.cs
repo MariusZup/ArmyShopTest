@@ -23,6 +23,8 @@ namespace ArmyShopPages
 
             driver.Value = new ChromeDriver(options);
             driver.Value.Manage().Timeouts().ImplicitWait = System.TimeSpan.FromSeconds(10);
+            
+
         }
 
         public static void takeScreenshot()
