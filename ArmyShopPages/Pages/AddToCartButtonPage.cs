@@ -1,4 +1,6 @@
-﻿namespace ArmyShopPages.Pages
+﻿using System;
+
+namespace ArmyShopPages.Pages
 {
     public class AddToCartButtonPage
     {
@@ -16,7 +18,7 @@
 
         public static void clickAirsoftButton()
         {
-            string locator = "//*[@id='catalog']/li[17]/a/span";
+            string locator = "//*[@id='catalog']/li[17]/a";
             Common.clickElement(locator);
         }
 
@@ -37,7 +39,7 @@
             Common.clickElement(locator);
         }
 
-        public static string readMessage()
+        public static string readCartMessage()
         {
             string locator = "//*[@id='system-message']/dd/ul/li";
             return Common.getElementText(locator);

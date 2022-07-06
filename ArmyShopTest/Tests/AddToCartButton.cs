@@ -1,9 +1,10 @@
 ﻿using ArmyShopPages.Pages;
+using ArmyShopTest.BaseClasses;
 using NUnit.Framework;
 
 namespace ArmyShopTest.Tests
 {
-    public class AddToCartButton
+    public class AddToCartButton : BaseTest
     {
 
         [SetUp]
@@ -24,7 +25,7 @@ namespace ArmyShopTest.Tests
             AddToCartButtonPage.clickButton();
             AddToCartButtonPage.clickButton2();
             AddToCartButtonPage.addToCart();
-            acctualMessage = AddToCartButtonPage.readMessage();
+            acctualMessage = AddToCartButtonPage.readCartMessage();
 
             Assert.IsTrue(acctualMessage.Contains(expectedMessage));
         }
