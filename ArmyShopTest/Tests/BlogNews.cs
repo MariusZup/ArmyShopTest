@@ -15,7 +15,7 @@ namespace ArmyShopTest.Tests
         public static void setup()
         {
             BlogNewsPage.open();
-            BlogNewsPage.closeAdvertisment();
+
         }
 
         [Test]

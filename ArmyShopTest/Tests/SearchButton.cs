@@ -16,7 +16,7 @@ namespace ArmyShopTest.Tests
         public static void setup()
         {
             SearchButtonPage.open();
-            SearchButtonPage.closeAdvertisment();
+            
         }
 
         [Test]
