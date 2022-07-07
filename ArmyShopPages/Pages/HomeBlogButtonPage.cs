@@ -12,12 +12,6 @@ namespace ArmyShopPages
         {
             Driver.open(Constants.Urls.Tests.Domain);
         }
-        public static void closeAdvertisment()
-        {
-            string locator = "//*[@id='sbox-btn-close']";
-            Common.waitForElementToBeVisible(locator);
-            Common.clickElement(locator);
-        }
         public static void clickBlogas()
         {
             string locator = "//*[@id='position_menu1']/div/div/div/div/ul/li[5]/a";

@@ -9,13 +9,6 @@ namespace ArmyShopPages.Pages
             Driver.open(Constants.Urls.Tests.Domain);
         }
 
-        public static void closeAdvertisment()
-        {
-            string locator = "//*[@id='sbox-btn-close']";
-            Common.waitForElementToBeVisible(locator);
-            Common.clickElement(locator);
-        }
-
         public static void clickAirsoftButton()
         {
             string locator = "//*[@id='catalog']/li[17]/a";
