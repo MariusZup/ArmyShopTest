@@ -16,7 +16,7 @@ namespace ArmyShopTest
         public static void setup()
         {
           HomeBlogButtonPage.open();
-          HomeBlogButtonPage.closeAdvertisment();
+          
         }
 
         [Test]

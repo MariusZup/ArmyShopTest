@@ -11,7 +11,7 @@ namespace ArmyShopTest.Tests
         public static void setup()
         {
             AddToCartButtonPage.open();
-            AddToCartButtonPage.closeAdvertisment();
+            
         }
 
         [Test]

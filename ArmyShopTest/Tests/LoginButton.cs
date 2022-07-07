@@ -17,7 +17,7 @@ namespace ArmyShopTest.Tests
         public static void setup()
         {
             LoginButtonPage.open();
-            LoginButtonPage.closeAdvertisment();
+            
         }
 
         [Test]
